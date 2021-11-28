@@ -1,0 +1,9 @@
+Part, 9, partkey, Part.name, mfgr, brand, type, size, container, retailprice, Part.comment
+Partsupp, 5, partkey, suppkey, availqty, supplycost, comment
+Lineitem, 16, orderkey, partkey, suppkey, linenumber, quantity, extendedprice, discount, tax, returnflag, linestatus, shipdate, commitdate, receiptdate, shipinstruct, shipmode, Lineitem.comment
+Orders, 9, orderkey, custkey, orderstatus, totalprice, orderdate, order-priority, clerk, ship-priority, comment
+Customer, 8, custkey, Customer.name, Customer.address, nationkey, Customer.phone, Customer.acctbal, mktsegment, Customer.comment
+Supplier, 7, suppkey, Supplier.name, Supplier.address, nationkey, Supplier.phone, Supplier.acctbal, Supplier.comment
+Nation, 4, nationkey, Nation.name, regionkey, Nation.comment
+Region, 3, regionkey, Region.name, Region.comment
+
